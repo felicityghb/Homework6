@@ -1,0 +1,4 @@
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
